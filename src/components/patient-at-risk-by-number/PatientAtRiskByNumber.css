@@ -1,0 +1,32 @@
+/* Add this CSS to your App.css or any other CSS file */
+
+.patient-at-risk-by-number .table-container {
+  overflow-x: auto; /* Enable horizontal scrolling for the table */
+}
+
+.patient-at-risk-by-number .data-table {
+  width: 100%; /* Make the table take up full width */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+.patient-at-risk-by-number .data-table th,
+.patient-at-risk-by-number .data-table td {
+  padding: 8px; /* Add padding to cells */
+  border: 1px solid #ddd; /* Add border to cells */
+}
+
+.patient-at-risk-by-number .data-table th {
+  background-color: #f2f2f2; /* Header background color */
+}
+
+.patient-at-risk-by-number .data-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.patient-at-risk-by-number .data-table tbody tr:hover {
+  background-color: #ddd; /* Hover row background color */
+}
+.patient-at-risk-by-number .data-table .pink-column {
+    background-color: pink; /* Pink background color */
+  }
+

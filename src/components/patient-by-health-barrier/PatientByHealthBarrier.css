@@ -1,0 +1,48 @@
+.patient-by-health-barrier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.component-title {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.content-container {
+  display: flex;
+  margin-top:10px;
+}
+
+.chart-container {
+  flex:1;
+  margin-right: 20px; /* Add space between chart and labels */
+}
+
+.labels-container {
+  flex:1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.label-item {
+  display: flex;
+  align-items: center;
+}
+
+.point {
+  display: inline-block;
+  width: 10px; /* Adjust the size of the point */
+  height: 10px; /* Adjust the size of the point */
+  border-radius: 50%;
+  margin-right: 5px; /* Adjust the space between point and text */
+}
+
+.label-text {
+  font-size: 14px; /* Adjust font size */
+}
+
+.point-value {
+  margin-left: 5px; /* Adjust the space between text and value */
+}
